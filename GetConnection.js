@@ -18,7 +18,7 @@ app.post('/', (req, res) => {
   // Handle the POST request
   const { name, price, count } = req.body;
   
-  // Do something with the data (e.g., log it)
+  // Do something with the data
   console.log('Received data:', { name, price, count });
   
   // Send a response

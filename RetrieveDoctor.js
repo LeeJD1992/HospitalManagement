@@ -5,8 +5,8 @@ const port = 3000;
 
 app.get('/doctors', (req, res) => {
   try {
-    // Perform your logic here to retrieve doctors data
-    // Example data (replace with your own logic)
+    //retrieve doctors data
+    
     const doctors = [
       {
         did: 1,
@@ -30,7 +30,7 @@ app.get('/doctors', (req, res) => {
         specialist: 'Orthopedics',
         patients: 8
       }
-      // Add more doctors as needed
+     
     ];
 
     let tableHtml = '<table><tr>';

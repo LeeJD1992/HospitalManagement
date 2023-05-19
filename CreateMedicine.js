@@ -16,10 +16,8 @@ app.options('*', (req, res) => {
 app.post('/', (req, res) => {
     const { name, price, count } = req.body;
 
-    // Perform any necessary operations with the form data
-    // For example, you can store it in a file or perform other business logic
-
-    // Simulate a successful response
+   
+    // Simulate successful response
     res.status(200).send('SUCCESSFUL');
 });
 

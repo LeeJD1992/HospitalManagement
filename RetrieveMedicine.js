@@ -7,7 +7,7 @@ const medicineData = [
   { mid: 1, name: 'Medicine 1', price: 10.99, count: 5 },
   { mid: 2, name: 'Medicine 2', price: 15.99, count: 8 },
   { mid: 3, name: 'Medicine 3', price: 12.99, count: 3 },
-  // Add more medicine data as needed
+
 ];
 
 app.get('/', (req, res) => {

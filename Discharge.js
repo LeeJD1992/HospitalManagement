@@ -11,9 +11,7 @@ app.post('/Discharge', (req, res) => {
   const { pid, days, daycost, mc } = req.body;
   const mcs = mc.split(';');
 
-  // Perform any necessary operations with the form data
-  // For example, you can calculate the total cost based on the provided inputs
-
+ 
   // Simulate a successful response
   const total = 0; // Calculate the total cost based on the provided inputs
 

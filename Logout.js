@@ -15,7 +15,7 @@ app.post('/login', (req, res) => {
   const { email, pwd } = req.body;
 
   // Perform your authentication logic here
-  // Example authentication logic (replace with your own)
+  
   if (email === 'admin@example.com' && pwd === 'password') {
     res.redirect('/welcome.html');
   } else {
